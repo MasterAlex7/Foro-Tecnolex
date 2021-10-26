@@ -18,9 +18,6 @@
     <div class="bienve">
         Hola
     </div>
-    <div class="caja2">
-    <a href="nuevotemaforo.php">Nueva Entrada</a>
-    </div>
     <div class="nombre">
         <?php
         echo $_SESSION['nombre'];
@@ -56,14 +53,8 @@
                 </tr>
             </table>
             <?php
-            if($row['autor']==$_SESSION['nombre']){
-                ?>
-                <span style="color: red;"><a href="eliminarresp.php?id=<?php echo $row['idconsul']; ?>">Eliminar</a></span>
-                <?php
-            }
         }
         ?>
-        <div class="caja3"><a href="nuevaresp.php?id=<?php echo $idcon;?>">Añadir nueva Respuesta</a></div>
     </div>
 </body>
 </html>

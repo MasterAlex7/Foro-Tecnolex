@@ -59,7 +59,7 @@ body {
     background: rgb(26, 122, 126);
     padding: 10px;
     margin-left: 1200px;
-    margin-top: -60px;
+    margin-top: -90px;
     border-radius: 4px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
@@ -150,4 +150,26 @@ body {
     resize: vertical;
     min-height: 100px;
     max-height: 300px;
+}
+
+.caja .eliminacion a{
+    color: red;
+}
+
+.admin{
+    position: absolute;
+    width: 100px;
+    background: rgb(26, 122, 126);
+    padding: 10px;
+    margin-left: 1200px;
+    margin-top: -40px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    box-shadow: 7px 13px 37px #123173; 
+}
+
+.admin a{
+    color: #000;
+    text-decoration: none;
 }

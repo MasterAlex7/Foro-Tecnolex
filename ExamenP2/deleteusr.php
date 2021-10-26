@@ -16,13 +16,11 @@
         <h1>Tecnolex</h1>
     </div>
     <section class="form-register">
-        <h4>Inicia Sesion</h4>
-        <form action="procesarlogin.php" method="post">
-            <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre de usuario">
-            <input class="controls" type="password" name="pass" id="pass" placeholder="Ingresa tu contraseña">
-            <input class="butons" type="submit" value="Iniciar Sesion" >
+        <h4>Eliminar Usuario</h4>
+        <form action="procesardelete.php" method="post" name="form1">
+            <input class="controls" type="text" name="nombre" id="nombre" placeholder="Nombre de usuario">
+            <input class="butons" type="submit" value="Eliminar">
         </form>
-        <p>Si quieres continuar como invitado <a href="procesarinv.php">aqui</a></p>
     </section>
 </body>
 </html>

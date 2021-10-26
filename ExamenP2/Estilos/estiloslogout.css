@@ -1,0 +1,127 @@
+body {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(97,193,203,1) 100%);
+}
+
+.title{
+    position: absolute;
+    margin-left: 470px;
+    margin-top: -200px;
+    font-size: 60px;
+    color: #123173;
+}
+
+.title a{
+    text-decoration: none;
+    color: #123173;
+}
+
+.caja{
+    width: 1200px;
+    background: rgb(24,63,64);
+    background: linear-gradient(0deg, rgba(24,63,64,1) 0%, rgba(10,19,97,1) 81%);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000; 
+    align-items: center;
+}
+
+.caja a{
+    color:rgb(65, 170, 173);
+    text-decoration: none;
+}
+
+.nombre{
+    font-size: 50px;
+    text-align: center;
+}
+
+.bienve{
+    font-size: 50px;
+    text-align: center;
+}
+
+.caja2 a{
+    color: black;
+    text-decoration: none;
+}
+
+.caja2{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -50px;
+    text-align: center;
+    width: 200px;
+    background: rgb(26, 122, 126);
+    padding: 20px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 7px 13px 37px #000; 
+}
+
+.caja3{
+    position: absolute;
+    margin-left: 760px;
+    margin-top: -68px;
+    text-align: center;
+    width: 200px;
+    background: rgb(26, 122, 126);
+    padding: 20px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+    box-shadow: 7px 13px 37px #000;  
+}
+
+.añadir{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -48px;
+    text-align: center;
+    width: 200px;
+    background: black;
+    padding: 20px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+    box-shadow: 7px 13px 37px #000; 
+}
+
+.eliminar{
+    position: absolute;
+    margin-left: 480px;
+    margin-top: -68px;
+    text-align: center;
+    width: 200px;
+    background: black;
+    padding: 20px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+    box-shadow: 7px 13px 37px #000; 
+}
+
+.listar{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -68px;
+    text-align: center;
+    width: 200px;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000;
+    box-shadow: 7px 13px 37px #000; 
+}
+
+
+
+
+
+
+

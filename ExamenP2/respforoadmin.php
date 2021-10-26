@@ -55,12 +55,8 @@
                     <td><h3><?php echo $row['respconsul'] ?></h3></td><br>
                 </tr>
             </table>
+            <p><a href="eliminarresp.php?id=<?php echo $idcon;?>">Eliminar Respuesta</a></p>
             <?php
-            if($row['autor']==$_SESSION['nombre']){
-                ?>
-                <span style="color: red;"><a href="eliminarresp.php?id=<?php echo $row['idconsul']; ?>">Eliminar</a></span>
-                <?php
-            }
         }
         ?>
         <div class="caja3"><a href="nuevaresp.php?id=<?php echo $idcon;?>">Añadir nueva Respuesta</a></div>
